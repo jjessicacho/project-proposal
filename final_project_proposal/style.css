@@ -1,0 +1,122 @@
+html {
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Layout */
+body {
+    color: #090909;
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 5px 0;
+}
+
+article {
+    margin: 2px 0 5px 0;
+}
+
+footer {
+    margin: 20px 0 10px 0;
+}
+
+footer span {
+    padding: 10px 5px;
+}
+
+p, li {
+    margin-top: 6px;
+}
+
+p {
+    padding-right: 30px;
+}
+
+
+/* Font Family & Font Weight */
+h1, h2, h3 {
+    font-family: 'Tinos', serif;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+p, span, li, em {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+strong {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+/* Font Size */
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+p, li, strong, em {
+    font-size: 1rem;
+}
+
+span {
+    font-size: 0.85rem;
+}
+
+/* Font Color */
+a {
+    color: #007FFF;
+}
+
+a:hover {
+    color: #162252;
+    background-color: yellow;
+}
+
+
+/* 
+------------
+ Class Selector
+------------
+*/
+
+.project_proposal_main,
+.web_usability_main {
+    padding: 10px 0;
+}
+
+.list_box {
+    margin: 2px 0 5px 0;
+    padding-right: 30px;
+}
+
+
+/* 
+------------
+ Id Selector
+------------
+*/
+#wrapper {
+    background-color: white;
+    max-width: 900px;
+    max-height: 100%;
+    margin: auto;
+    padding: 20px 30px;
+}
+
